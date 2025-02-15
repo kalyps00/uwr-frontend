@@ -1,3 +1,0 @@
-// Vitest Snapshot v1
-
-exports[`Create Todo > Should create Todo with Name 1`] = `"New Todo"`;
