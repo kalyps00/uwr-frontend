@@ -2,6 +2,8 @@
 
 Your task is to style the page according to the guidelines below. The styling should be implemented **exclusively using CSS**. You may edit the HTML code only in the designated areas marked by comments. The final appearance of the page should match the [image](./sol.png) ([full resolution](./sol_fullres.png)).
 
+You can find HTML file [here](https://github.com/Arsenicro/uwr-frontend/blob/main/L02/Lab/challenges.html).
+
 ## Resources
 
 In addition to the resources available on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS), it is recommended to practice selectors and specificity using [CSS Dinner](https://flukeout.github.io/) and [CSS Speedrun](https://css-speedrun.netlify.app/).
