@@ -2,6 +2,8 @@
 
 Twoim zadaniem będzie ostylowanie strony zgodnie z poniższymi wytycznymi. Stylizacja powinna zostać zaimplementowana **wyłącznie przy użyciu CSS**. Możesz edytować kod HTML tylko w wyznaczonych miejscach opisanych przez komentarz. Ostateczny wygląd strony powinien zgadzać się z [obrazkiem](./sol.png) ([pełna rozdzielczość](./blog_fullres.png)).
 
+Plik HTML znajduje się [tutaj](https://github.com/Arsenicro/uwr-frontend/blob/main/L02/Lab/challenges.html).
+
 ## Materiały
 
 Oprócz materiałów które można znaleźć na [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS) warto przećwiczyć selektory i specyficzność z użyciem [CSS dinner](https://flukeout.github.io/) oraz [CSS speedrun](https://css-speedrun.netlify.app/).
