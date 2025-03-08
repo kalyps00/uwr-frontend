@@ -2,7 +2,7 @@
 
 Your task is to style the page according to the guidelines below. The styling should be implemented **exclusively using CSS**. You may edit the HTML code only in the designated areas marked by comments. The final appearance of the page should match the [image](./sol.png) ([full resolution](./sol_fullres.png)).
 
-You can find HTML file [here](https://github.com/Arsenicro/uwr-frontend/blob/main/L02/Lab/challenges.html).
+You can find HTML file [here](https://github.com/Arsenicro/uwr-frontend/blob/main/L02/Lab/challenges.html). Your solutions should be inside [style.css](./style.css) file.
 
 ## Resources
 
@@ -42,7 +42,8 @@ The reference solution uses the following properties:
 
 - Links should have the same color as the text (`darkblue`).
 - Visited links should appear `lightslategray`.
-- On hover, links should turn red, become bold, and always be underlined.
+- Links should always be underlined.
+- On hover, links should turn red and become bold.
 - Instead of bullet points, list items should use the "🍔" icon.
 
 ## **Hiding Elements**: "Too much" Section (`id="challenge4"`)

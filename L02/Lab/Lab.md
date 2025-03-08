@@ -1,8 +1,8 @@
 # Zadanie: Stylizacja Strony (10p)
 
-Twoim zadaniem będzie ostylowanie strony zgodnie z poniższymi wytycznymi. Stylizacja powinna zostać zaimplementowana **wyłącznie przy użyciu CSS**. Możesz edytować kod HTML tylko w wyznaczonych miejscach opisanych przez komentarz. Ostateczny wygląd strony powinien zgadzać się z [obrazkiem](./sol.png) ([pełna rozdzielczość](./blog_fullres.png)).
+Twoim zadaniem będzie ostylowanie strony zgodnie z poniższymi wytycznymi. Stylizacja powinna zostać zaimplementowana **wyłącznie przy użyciu CSS**. Możesz edytować kod HTML tylko w wyznaczonych miejscach opisanych przez komentarz. Ostateczny wygląd strony powinien zgadzać się z [obrazkiem](./sol.png) ([pełna rozdzielczość](./sol_fullres.png)).
 
-Plik HTML znajduje się [tutaj](https://github.com/Arsenicro/uwr-frontend/blob/main/L02/Lab/challenges.html).
+Plik HTML znajduje się [tutaj](./challenges.html). Twoje rozwiązania powinny znaleźć się w pliku [style.css](./style.css)
 
 ## Materiały
 
@@ -41,7 +41,8 @@ W szczególności, własności użyte w rozwiązaniu wzorcowym to: `background-c
 
 - Linki powinny mieć ten sam kolor co tekst (`darkblue`).
 - Odwiedzone linki powinny mieć kolor `lightslategray`.
-- Po najechaniu myszką, linki powinny być czerwone, pogrubione i zawsze podkreślone.
+- Linki zawsze powinny być podkreślone.
+- Po najechaniu myszką, linki powinny być czerwone i pogrubione.
 - Zamiast kropek, elementy listy powinny używać ikony "🍔".
 
 ## **Ukrywanie elementów**: Sekcja "Too much" (id="challenge4")
