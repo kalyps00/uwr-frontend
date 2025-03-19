@@ -133,9 +133,11 @@ article:nth-of-type(2) .article__figure {
 .posts__wrapper {
   height: 300px;
   display: flow-root;
+  position: relative;
 }
 .post__container:nth-of-type(2) {
   left: 250px;
+  bottom: 0;
 }
 .post__container {
   position: absolute;
