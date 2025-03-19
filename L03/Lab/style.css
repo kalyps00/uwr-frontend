@@ -121,20 +121,6 @@ article:nth-of-type(2) .article__figure {
   width: 300px;
   object-fit: cover;
 }
-.post__subtitle {
-  margin: 0;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: royalblue;
-  color: white;
-  text-align: center;
-}
-.posts__wrapper {
-  height: 300px;
-  display: flow-root;
-  position: relative;
-}
 .post__container:nth-of-type(2) {
   left: 250px;
   bottom: 0;
@@ -148,6 +134,19 @@ article:nth-of-type(2) .article__figure {
 }
 .post__container:nth-of-type(2):hover {
   z-index: 1;
+}
+.post__subtitle {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+}
+.posts__wrapper {
+  height: 300px;
+  position: relative;
 }
 .post__info {
   position: absolute;
