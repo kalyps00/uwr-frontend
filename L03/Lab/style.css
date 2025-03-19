@@ -36,6 +36,7 @@ h3 {
 .navigation__wrapper {
   height: 100.594px;
 }
+
 .navigation {
   display: flex;
   list-style: none;
@@ -150,10 +151,11 @@ article:nth-of-type(2) .article__figure {
 }
 .post__info {
   position: absolute;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 30px;
   height: 30px;
-  line-height: 30px;
   color: white;
   background-color: salmon;
   border-radius: 50%;
