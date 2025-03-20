@@ -45,15 +45,32 @@
 
       .container2 {
         display: grid;
+        grid-template-areas:
+          "one one two"
+          "three four two"
+          "five five six";
       }
 
       @media (min-width: 321px) and (max-width: 768px) {
         .container2 {
+          grid-template-areas:
+            "one one"
+            "two three"
+            "two four"
+            "two six"
+            "five five";
         }
       }
 
       @media (max-width: 320px) {
         .container2 {
+          grid-template-areas:
+            "one"
+            "two"
+            "three"
+            "four"
+            "five"
+            "six";
         }
       }
     </style>
