@@ -38,6 +38,8 @@ W ramach tego zadania przydatne okazać się mogą materiały dotyczące [Grida]
     > By czcionka brała pod uwagę preferencje użytkownika, możemy użyć funkcji `calc` i dodać do czcionki jednostkę relatywną, np. `rem`.
     >
     > By czcionka zbyt bardzo się nie rozrosła, możemy użyć funkcji `clamp`.
+    >
+    > Przydać sie może: https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/
 
     </details>
 

@@ -38,6 +38,8 @@ For this task, materials on [Grid](https://developer.mozilla.org/en-US/docs/Web/
    > To respect the user's preferences, we can use the `calc` function and add a relative unit, e.g., `rem`.
    >
    > To prevent the font from growing too large, we can use the `clamp` function.
+   >
+   > You may need: https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/
 
    </details>
 
