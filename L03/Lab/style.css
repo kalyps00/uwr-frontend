@@ -29,12 +29,9 @@ h3 {
   padding: 0 2rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /*  align-items: center; */
   position: sticky;
   top: 0;
-}
-.navigation__wrapper {
-  height: 100.594px;
 }
 
 .navigation {
@@ -51,6 +48,7 @@ h3 {
 .navigation__link {
   display: flex;
   width: 100px;
+  height: 100%;
   color: black;
   text-decoration: none;
   justify-content: center;
