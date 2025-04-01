@@ -43,7 +43,7 @@ W ramach tego zadania przydatne okazać się mogą materiały dotyczące [Grida]
 
     </details>
 
-1.  Jeśli użytkownik przegląda urządzenie na urządzeniu, na którym zaznacza rzeczy palcem, pole `checkbox`a może być ciężkie do zaznaczenia. Jako, że bardzo chcemy, by użytkownik mógł je z łatwością zaznaczyć, na tych urządzeniach pole wyboru powinno być trochę większe. _Uwaga:_ W tym zadaniu **nie możesz** założyć że urządzenie mobilne to takie z odpowiednio małym ekranem: musisz znaleźć inne rozwiązanie.
+1.  Jeśli użytkownik przegląda stronę na urządzeniu, na którym zaznacza rzeczy palcem, pole `checkbox`a może być ciężkie do zaznaczenia. Jako, że bardzo chcemy, by użytkownik mógł je z łatwością zaznaczyć, na tych urządzeniach pole wyboru powinno być trochę większe. _Uwaga:_ W tym zadaniu **nie możesz** założyć że urządzenie mobilne to takie z odpowiednio małym ekranem: musisz znaleźć inne rozwiązanie.
 
     <details>
       <summary>Podpowiedź</summary>
