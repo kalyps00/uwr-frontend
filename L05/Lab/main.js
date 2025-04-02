@@ -162,31 +162,31 @@ add_product("Mleko", 1, "2025-04-02");
 add_product("Masło", 3, "2025-04-03");
 add_product("Kupic_dzisiaj", 3, new Date().toDateString());
 console.log("Lista produktów po dodaniu:");
-console.log(products_list);
+console.table(products_list);
 
 // Usuwanie produktu
 delete_product(products_list[1].id);
 
 console.log("Lista produktów po usunięciu drugiego produktu:");
-console.log(products_list);
+console.table(products_list);
 
 // Zmiana nazwy produktu
 change_product_name(products_list[0].id, "Bułki");
 
 console.log("Lista produktów po zmianie nazwy pierwszego produktu:");
-console.log(products_list);
+console.table(products_list);
 
 // Zmiana ilości produktu
 change_product_quantity(products_list[0].id, 5);
 
 console.log("Lista produktów po zmianie ilości pierwszego produktu:");
-console.log(products_list);
+console.table(products_list);
 
 // Zmiana daty zakupu produktu
 change_product_date(products_list[0].id, "2025-04-05");
 
 console.log("Lista produktów po zmianie daty zakupu pierwszego produktu:");
-console.log(products_list);
+console.table(products_list);
 
 // Oznaczenie produktu jako zakupionego
 change_product_purchased(products_list[0].id, true);
@@ -194,36 +194,34 @@ change_product_purchased(products_list[0].id, true);
 console.log(
   "Lista produktów po oznaczeniu pierwszego produktu jako zakupionego:"
 );
-console.log(products_list);
+console.table(products_list);
 
 // Ustawienie ceny dla zakupionego produktu
 change_bought_price(products_list[0].id, 4.99);
 
 console.log("Lista produktów po ustawieniu ceny dla pierwszego produktu:");
-console.log(products_list);
+console.table(products_list);
 
 // Obliczanie całkowitego kosztu zakupów dla danego dnia
 const totalPrice = calculate_total_price("2025-04-05");
-console.log(
-  `Całkowity koszt zakupów dla dnia 2025-04-05: ${totalPrice.toFixed(2)}`
-); // Ensure two decimal places
+console.log("Całkowity koszt zakupów dla dnia 2025-04-05: ");
+console.log(totalPrice);
 
 // Pobranie produktów, które należy zakupić dzisiaj
 const lastDayProducts = last_day_to_purchase();
 console.log("Produkty, które należy zakupić dzisiaj:");
-console.log(lastDayProducts);
+console.table(lastDayProducts);
 
 // Zmiana kolejności produktów
 move_product(products_list[0].id, 1);
 
 console.log("Lista produktów po zmianie kolejności:");
-console.log(products_list);
+console.table(products_list);
 
 // Masowe formatowanie produktów
 chane_products([products_list[0].id], (product) => {
   product.name = product.name.toUpperCase();
   return product;
 });
-
 console.log("Lista produktów po masowym formatowaniu:");
-console.log(products_list);
+console.table(products_list);
