@@ -255,7 +255,17 @@
         const englishFlavorText = speciesData.flavor_text_entries.find((entry) => entry.language.name === "en");
         if (englishFlavorText) {
           // Usuń znaki specjalne z opisu
-          pokemonFlavorTextElement.textContent = englishFlavorText.flavor_text.replace(/[\f\n\r]/g, " ");
+          pokemonFlavorTextElement.textContent = englishFlavorText.flavor_text;
+          pokemonFlavorTextElement.textContent = englishFlavorText.flavor_text
+            .replace("\f", "\n") // Zamień page breaks na newlines
+            .replace("\u00ad\n", "") // Usuń miękkie łączniki + newlines
+            .replace("\u00ad", "") // Usuń wszystkie miękkie łączniki
+            .replace(" -\n", " - ") // Zachowaj myślniki ze spacją przed
+            .replace("-\n", "-") // Zachowaj myślniki
+            .replace("\n", " ") // Zamień pozostałe newlines na spacje
+            .split(" ") // Podziel na słowa
+            .filter((word) => word) // Usuń puste
+            .join(" "); // Połącz z powrotem z pojedynczymi spacjami
         } else {
           pokemonFlavorTextElement.textContent = "No description available.";
         }
@@ -263,7 +273,7 @@
       }
       async function fetchPokemonList() {
         try {
-          // loadingElement.style.display = "block";
+          loadingElement.style.display = "block";
           const response = await fetch(`${API_URL}/pokemon-species?limit=151`);
           if (!response.ok) throw new Error("Failed to fetch Pokémon list");
 
