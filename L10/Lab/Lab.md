@@ -21,4 +21,3 @@ Poniższe wymagania nie są przedstawione jako lista kroków. W szczególności,
    1. **To wymaganie jest kluczowe**. Aplikacja która nie korzysta z bundlera, albo w której bundler nie spełnia funkcji budowania kodu gotowego na produkcję **nie będzie** oceniane.
 1. Zmień domyślny port w którym aplikacja działa w trybie developerskim, zmieniając config.
    1. Nie nalezy tego robić przez argumenty wywołania: należy stworzyć plik konfiguracyjny `vite`.
-1. Dodaj obsługę [https://eslint.org/](eslinta). Dodaj także dwie komendy: `npm run lint` wypisującą błędy i `npm run lint:fix` która dodatkowo błędy naprawia.

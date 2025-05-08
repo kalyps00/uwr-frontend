@@ -21,6 +21,3 @@ The following requirements are **not** presented as a step-by-step guide. In par
    1. **This requirement is critical.** An application that does not use a bundler, or in which the bundler does not produce a production-ready build, **will not be accepted**.
 5. Change the default port used by the development server by modifying the configuration.
    1. This must be done using a `vite.config.ts` file, **not** by passing CLI arguments.
-6. Add support for [https://eslint.org/](ESLint). Add the following two commands:
-   1. `npm run lint` to list errors.
-   2. `npm run lint:fix` to also automatically fix them.
