@@ -274,7 +274,7 @@
       async function fetchPokemonList() {
         try {
           loadingElement.style.display = "block";
-          const response = await fetch(`${API_URL}/pokemon-species?limit=151`);
+          const response = await fetch(`${API_URL}/pokemon-species?limit=500`);
           if (!response.ok) throw new Error("Failed to fetch Pokémon list");
 
           const pokemonList = await response.json();

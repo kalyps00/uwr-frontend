@@ -4,7 +4,6 @@ const display = document.querySelector("#calculator__display") as HTMLInputEleme
 const buttons = document.querySelector("#calculator__buttons") as HTMLDivElement;
 
 let expression: string = "";
-
 buttons.addEventListener("click", (event) => {
   const target = event.target as HTMLButtonElement;
   if (!target.matches(".calculator__button")) return;
